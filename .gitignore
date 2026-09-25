@@ -1,0 +1,52 @@
+# ==============================
+# Python
+# ==============================
+__pycache__/
+*.py[cod]
+*.pyo
+
+# ==============================
+# Virtual Environment
+# ==============================
+.venv/
+venv/
+env/
+
+# ==============================
+# Secrets
+# ==============================
+credentials.json
+token.json
+.env
+.env.*
+*.env
+
+# ==============================
+# Datasets / Generated Data
+# ==============================
+backend/data/kaggle_downloads/
+backend/data/quality_test/
+backend/data/registry/
+
+# Archives
+*.zip
+
+# ==============================
+# Frontend
+# ==============================
+frontend/node_modules/
+frontend/dist/
+
+# ==============================
+# IDE
+# ==============================
+.vscode/
+.idea/
+
+# ==============================
+# OS
+# ==============================
+.DS_Store
+Thumbs.db
+# Node portable
+NODE.JS/
